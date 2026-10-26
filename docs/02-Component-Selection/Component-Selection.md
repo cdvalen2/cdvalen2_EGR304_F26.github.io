@@ -26,3 +26,15 @@ title: Component Selection Example
 **Rationale:** The MCP6004 op-amp is a component I am already familiar with and provides reliable readings. It also meets the requirements of my 5-volt circuit.
 
 
+**Power supply**
+
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](image3.png)<br>Option 1.<br> YS39-2402500-D1J AC to DC Wall Adapter <br>$0.60/each<br>[link to product](https://www.jameco.com/z/YS39-2402500-D1J-Yingjiao-Switching-AC-DC-Wall-Adapter-24-VDC-2-5A-2-1mm-DC-Plug_2734919.html)                 | \* Low power consumption per amp 100uA    <br>\* Easy mounting <br>\* Four op amp systems in one                                               | \*  1.8-6V limited supply range<br>\* Lower bandwidth of 1MHz<br>\*Low slew rate of 0.6 V/us |
+| ![](image6.png)<br>\* Option 2. <br>\* LM358B Op-Amp <br>\* $0.59/each <br>\* [Link to product](https://www.ti.com/product/LM358B#order-quality) | \* Higher bandwith of 1.2 MHz <br>\* Wide supply range of 3-36v <br> \* EMI and RF filtering | * Uses more power per amp 300 uA<br>\* Two op amp system                                                          |
+
+**Choice:** MCP6004 Op-Amp
+
+**Rationale:** The MCP6004 op-amp is a component I am already familiar with and provides reliable readings. It also meets the requirements of my 5-volt circuit.
+
+
