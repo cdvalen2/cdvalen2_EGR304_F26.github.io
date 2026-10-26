@@ -2,14 +2,6 @@
 title: Component Selection Example
 ---
 
-## Examples
-
-### Style 1
-
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
 **Moisture Sensor**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
@@ -22,39 +14,15 @@ title: Component Selection Example
 **Rationale:** The 4411-ST0160-ND capacitive soil moisture sensor provides excellent corrosion resistance, is relatively inexpensive when purchased from the correct retailer, and outputs the analog signal required for my analog circuit.
 
 
+**Op Amp**
 
-### Style 2
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](image2.png)<br>Option 1.<br> MCP6004 Op-Amp <br>$0.60/each<br>[link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)                 | \* Low power consumption per amp 100uA    <br>\* Easy mounting <br>\* Four op amp systems in one                                               | \*  1.8-6V limited supply range<br>\* Lower bandwidth of 1MHz<br>\*Low slew rate of 0.6 V/us |
+| ![](image4.png)<br>\* Option 2. <br>\* LM358B Op-Amp <br>\* $0.59/each <br>\* [Link to product](https://www.ti.com/product/LM358B#order-quality) | \* Higher bandwith of 1.2 MHz <br>\* Wide supply range of 3-36v <br> \* EMI and RF filtering | * Uses more power per amp 300 uA<br>\* Two op amp system                                                          |
 
-> Also acceptable, more markdown friendly
+**Choice:** MCP6004 Op-Amp
 
-**External Clock Module**
+**Rationale:** The MCP6004 op-amp is a component I am already familiar with and provides reliable readings. It also meets the requirements of my 5-volt circuit.
 
-1. XC1259TR-ND surface mount crystal
 
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
