@@ -6,19 +6,11 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+This block diagram illustrates the moisture sensor subsystem of Team BAMF's plant monitoring system. It uses a moisture sensor to determine whether the plant is receiving enough water. The system then communicates with a teammate's board to transmit sensor readings and activate a water pump.
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+The block diagram shows the wiring connections between the components and the microcontroller, as well as the microcontroller's peripherals. It documents the essential system details needed for communication, understanding, and replication.
 
+## Block Diagram 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
 
 ![Example of Indivial Block diagram ](individual-block-diagram.png)
