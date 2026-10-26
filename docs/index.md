@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6"> Carlos Datasheet</font><br>
 as part of<br>
-<font size= "8"> Deadly Laser or something</font><br>
+<font size= "8"> Moisture Sensor</font><br>
 for<br>
 <font size= "5"> Team 205 </font><br>
 
