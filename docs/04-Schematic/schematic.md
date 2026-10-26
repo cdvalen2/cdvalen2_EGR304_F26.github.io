@@ -9,7 +9,7 @@ This schematic is designed for Team BAMF's plant monitoring system. It incorpora
 The system measures changes in the sensor's electrical properties caused by the soil's moisture content. The sensor produces an analog signal that is processed by the Nano microcontroller using its analog-to-digital converter (ADC). The microcontroller then uses the sensor readings to send data to a display on one board and control a solenoid on another board.
 
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
+![schematic](Screenshot.png.png){style width:"350" height:"300;"}
 **Figure ##:** Team BAMF Light Sensor schematic..
 
 
