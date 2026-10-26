@@ -878,7 +878,7 @@
 <p>This is the example found in the assignment, uses more html</p>
 </blockquote>
 <p><em>Table 1: Example component selection</em></p>
-<p><strong>External Clock Module</strong></p>
+<p><strong>Moisture Sensor</strong></p>
 <table>
 <thead>
 <tr>
@@ -889,19 +889,19 @@
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a><br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></td>
-<td>* Inexpensive[^1]<br>* Compatible with PSoC<br>* Meets surface mount constraint of project</td>
-<td>* Requires external components and support circuitry for interface<br>* Needs special PCB layout.</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a><br>Option 1.<br> 4411-ST0160-ND CAPACITIVE SOIL MOISTURE SENSOR<br>$1.89/each<br><a href="https://www.digikey.com/en/products/detail/sunfounder/ST0160/22116813">link to product</a></td>
+<td>* Inexpensive<br>* Analog voltage output<br>* Great corrosion resistance</td>
+<td>*  Temperature sensitivity<br>* Slow response to rapid moisture changes<br></td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
-<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
-<td>* More expensive <br>* Slow shipping speed</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a><br>* Option 2. <br>* 1528-2753-ND STEMMA SOIL SENSOR - I2C CAPACIT <br>* $1/each <br>* <a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/4026/9745252">Link to product</a></td>
+<td>* Uses I²C communication <br>* Great corrosion resistance <br> * Built in temperature sensor for calibration</td>
+<td>* More expensive</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Choice:</strong> 4411-ST0160-ND CAPACITIVE SOIL MOISTURE SENSOR</p>
+<p><strong>Rationale:</strong> The 4411-ST0160-ND capacitive soil moisture sensor provides excellent corrosion resistance, is relatively inexpensive when purchased from the correct retailer, and outputs the analog signal required for my analog circuit.</p>
 <h3 id="style-2">Style 2</h3>
 <blockquote>
 <p>Also acceptable, more markdown friendly</p>
